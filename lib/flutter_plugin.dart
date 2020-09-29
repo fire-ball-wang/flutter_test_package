@@ -16,4 +16,7 @@ class FlutterPlugin {
     final String version = await _channel.invokeMethod('getPlatformVersion');
     return version;
   }
+  void inputText(String str){
+    print(str);
+  }
 }
